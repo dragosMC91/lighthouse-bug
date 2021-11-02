@@ -1,0 +1,15 @@
+{
+    "name": "someapp",
+    "version": "1.0.0",
+    "private": true,
+    "license": "UNLICENSED",
+    "scripts": {
+        "test:e2e": "wdio e2e/wdio.appX.conf.js"
+    },
+    "dependencies": {
+        "somelayer": "^1.0.0"
+    },
+    "devDependencies": {
+        "somelayer": "^1.0.0"
+    }
+}
