@@ -8,7 +8,6 @@
         "generateMochawesome": "wrap () { marge \"$*\"/e2e/mochawesome/mochawesome-results.json --no-showPassed --reportTitle 'Test Report' | cat; }; wrap"
     },
     "workspaces": [
-        "somelayer",
         "someapp"
     ]
 }
